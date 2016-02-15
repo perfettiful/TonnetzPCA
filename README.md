@@ -2,7 +2,10 @@
 
 <p>In this project I will investigate the harmonic patterns of digitally rendered musical compositions using exploratory statistical analyses. I intend on developing a more generalized method of mining the score data of a musical composition using R statistical programming software.  Such an analysis could be used discover important harmonic relationships within a composition as well as classify its tonal content.</p>
  
-<p>Working data files available here:</p> (https://docs.google.com/spreadsheets/d/1MrluQZSDnaSbIXlp3h5GT3UZuZx_Ccw7rOY7n_UA-cY/edit?ts=5653647d#gid=756955444)
+<p>Working data files available here:</p>
+
+(https://docs.google.com/spreadsheets/d/1MrluQZSDnaSbIXlp3h5GT3UZuZx_Ccw7rOY7n_UA-cY/edit?ts=5653647d#gid=756955444)
+
 >Key Words: Tonnetz, tonal networks, Principal Component Analysis, PCA, harmonic, visualization. R
  
 
