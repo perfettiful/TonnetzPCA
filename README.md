@@ -1,20 +1,20 @@
 #TonnetzPCA
 
-In this project I will investigate the harmonic patterns of digitally rendered musical compositions using exploratory statistical analyses. I intend on developing a more generalized method of mining the score data of a musical composition using R statistical programming software.  Such an analysis could be used discover important harmonic relationships within a composition as well as classify its tonal content
+...In this project I will investigate the harmonic patterns of digitally rendered musical compositions using exploratory statistical analyses. I intend on developing a more generalized method of mining the score data of a musical composition using R statistical programming software.  Such an analysis could be used discover important harmonic relationships within a composition as well as classify its tonal content
  
-Working data files available here: (https://docs.google.com/spreadsheets/d/1MrluQZSDnaSbIXlp3h5GT3UZuZx_Ccw7rOY7n_UA-cY/edit?ts=5653647d#gid=756955444)
+...Working data files available here: (https://docs.google.com/spreadsheets/d/1MrluQZSDnaSbIXlp3h5GT3UZuZx_Ccw7rOY7n_UA-cY/edit?ts=5653647d#gid=756955444)
 >Key Words: Tonnetz, tonal networks, Principal Component Analysis, PCA, harmonic, visualization. R
  
 
 ##I. INTRODUCTION AND BACKGROUND
 
-The inspiration for this project comes from the researcher Dan Chitwood,who through a series of videos on his Youtube channel demonstrates the prospect of using analytical techniques on digital renderings of musical compositions. Here is an example of his work wherein he applies the exploratory data analysis technique of PCA to a collection of variables defining the composition “Fugue No. 5, D Major ” by J.S. Bach.
+...The inspiration for this project comes from the researcher Dan Chitwood,who through a series of videos on his Youtube channel demonstrates the prospect of using analytical techniques on digital renderings of musical compositions. Here is an example of his work wherein he applies the exploratory data analysis technique of PCA to a collection of variables defining the composition “Fugue No. 5, D Major ” by J.S. Bach.
 Principal Component Analysis (PCA) is a procedure used “to describe the variation of a set of multivariate data in terms of a set of uncorrelated variables, each of which is a particular linear combination of the original variables” (Everitt and Dunn, 48). Chitwood’s analysis 
 each note is analyzed for 1) duration, 2) voice, 3-4) 2D position in a Tonnetz lattice, 5) absolute pitch, and 6) relative pitch.
 
 ##II. CURRENT WORK
 
-For the current project, I am interested in streamlining Chitwood’s process in order to generalize his method for analyzing the harmonic connections in a musical composition. The compositions I will attempt to analyze for this project are a selection of three pieces from the composer J.S.Bach, available freely on Musedata.org:
+...For the current project, I am interested in streamlining Chitwood’s process in order to generalize his method for analyzing the harmonic connections in a musical composition. The compositions I will attempt to analyze for this project are a selection of three pieces from the composer J.S.Bach, available freely on Musedata.org:
 
 Prelude and Fugue in C-sharp Major (http://www.musedata.org/encodings/bach/bg/keybd/wtc-i/0848/)
 
@@ -22,7 +22,7 @@ Prelude and Fugue in D Major (http://www.musedata.org/encodings/bach/bg/keybd/wt
 
 Brandenburg Concerto No. 4 in G Major (http://www.musedata.org/encodings/bach/bg/orch/1049/),
  
-In order to extract extract and build a dataset of the score information of a given composition, I will utilize the software program MusicScore (https://musescore.org/en).  The key challenge at this step will be developing a script to automate the process of translating the score information from the kern format available on Musedata to a .txt format readable to R.
+...In order to extract extract and build a dataset of the score information of a given composition, I will utilize the software program MusicScore (https://musescore.org/en).  The key challenge at this step will be developing a script to automate the process of translating the score information from the kern format available on Musedata to a .txt format readable to R.
  
 
 ##Data Acquisition Methodology
